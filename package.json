@@ -1,0 +1,24 @@
+{
+  "name": "alaa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon server/server.js -w server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "easyxml": "^2.0.1",
+    "express": "^4.17.1",
+    "express-xml-bodyparser": "^0.3.0",
+    "faker": "^4.1.0",
+    "mysql": "^2.17.1",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
